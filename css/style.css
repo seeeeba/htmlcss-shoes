@@ -3,8 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: montserrat;
-    text-transform:uppercase;
 }
+
+.container{
+    position: absolute;
+    z-index: 1;
+}
+
+.button{
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
+li >a{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: white;
+    padding: 0 5%;
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li{
+    padding: 15px, 0;
+    display: inline-block;
+    margin: 30px;
+}
+
+
 
 .shoes {
     position: relative;
@@ -23,7 +53,7 @@
     color: white;
     font-size: 40px;
     text-transform: uppercase;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
